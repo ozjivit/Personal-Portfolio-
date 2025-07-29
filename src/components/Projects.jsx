@@ -5,55 +5,55 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "🛒",
+      title: "Brand Identity Package",
+      description: "Complete brand identity design including logo, business cards, letterhead, and brand guidelines for a tech startup. Created a modern, minimalist design that reflects innovation and professionalism.",
+      technologies: ["Adobe Illustrator", "Adobe Photoshop", "Typography", "Color Theory"],
+      image: "🎨",
       github: "#",
       live: "#"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "Firebase", "Material-UI", "Socket.io"],
-      image: "📋",
+      title: "Social Media Campaign",
+      description: "Designed a comprehensive social media campaign with custom graphics, Instagram stories, and promotional materials for a fashion brand. Increased engagement by 150%.",
+      technologies: ["Adobe Photoshop", "Canva", "Social Media Design", "Digital Marketing"],
+      image: "📱",
       github: "#",
       live: "#"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather application that displays current weather conditions and forecasts using OpenWeatherMap API.",
-      technologies: ["React", "CSS3", "OpenWeatherMap API", "Chart.js"],
-      image: "🌤️",
+      title: "Event Poster Series",
+      description: "Created a series of eye-catching event posters for a music festival. Each poster featured unique typography and vibrant color schemes that captured the energy of different music genres.",
+      technologies: ["Adobe InDesign", "Typography", "Print Design", "Color Psychology"],
+      image: "🎵",
       github: "#",
       live: "#"
     },
     {
       id: 4,
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and styled with CSS. Features smooth animations and clean design.",
-      technologies: ["React", "CSS3", "React Router", "Framer Motion"],
-      image: "💼",
+      title: "Product Packaging Design",
+      description: "Designed packaging for a premium skincare line, including boxes, labels, and promotional materials. Focused on luxury aesthetics and sustainable design principles.",
+      technologies: ["Adobe Illustrator", "Package Design", "Sustainable Design", "Brand Strategy"],
+      image: "📦",
       github: "#",
       live: "#"
     },
     {
       id: 5,
-      title: "Chat Application",
-      description: "Real-time chat application with user authentication, message history, and file sharing capabilities.",
-      technologies: ["React", "Socket.io", "Express", "MongoDB"],
-      image: "💬",
+      title: "Digital Illustration Collection",
+      description: "Created a series of digital illustrations for children's books and educational materials. Each illustration was designed to be engaging, educational, and visually appealing to young audiences.",
+      technologies: ["Adobe Photoshop", "Digital Illustration", "Character Design", "Children's Art"],
+      image: "📚",
       github: "#",
       live: "#"
     },
     {
       id: 6,
-      title: "Fitness Tracker",
-      description: "A comprehensive fitness tracking application with workout logging, progress charts, and goal setting features.",
-      technologies: ["React Native", "Firebase", "Chart.js", "AsyncStorage"],
-      image: "💪",
+      title: "Website UI Design",
+      description: "Designed user interface mockups and wireframes for an e-commerce website. Created a clean, modern design that prioritizes user experience and conversion optimization.",
+      technologies: ["Figma", "UI/UX Design", "Wireframing", "User Research"],
+      image: "💻",
       github: "#",
       live: "#"
     }
@@ -63,7 +63,7 @@ const Projects = () => {
     <div className="projects">
       <div className="projects-header">
         <h1>My Projects</h1>
-        <p>Here are some of the projects I've worked on. Each one represents a unique challenge and learning experience.</p>
+        <p>Here are some of the design projects I've worked on. Each one represents a unique creative challenge and showcases different aspects of my design skills.</p>
       </div>
 
       <div className="projects-grid">
@@ -82,10 +82,10 @@ const Projects = () => {
               </div>
               <div className="project-links">
                 <a href={project.github} className="project-link github">
-                  <span>📁</span> GitHub
+                  <span>📁</span> Portfolio
                 </a>
                 <a href={project.live} className="project-link live">
-                  <span>🌐</span> Live Demo
+                  <span>🌐</span> View Project
                 </a>
               </div>
             </div>
@@ -94,8 +94,8 @@ const Projects = () => {
       </div>
 
       <div className="projects-footer">
-        <h2>Want to see more?</h2>
-        <p>I'm always working on new projects and learning new technologies. Feel free to reach out if you'd like to collaborate or have a project in mind!</p>
+        <h2>Ready to collaborate?</h2>
+        <p>I'm always excited to work on new creative projects and bring your vision to life. Let's discuss how we can create something amazing together!</p>
         <button className="btn btn-primary">Get In Touch</button>
       </div>
     </div>
